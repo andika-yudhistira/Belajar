@@ -1,23 +1,33 @@
+//Latihan While
+
 // var ulang = true;
 // while(ulang) {
 //     console.log('Hello World!');
-//     ulang = confirm('Lagi?');
+// ulang = confirm('Lagi?');
 // }
 
-// var NilaiAwal = 1
-// while(NilaiAwal <=5){
+// var nilaiAwal = 1
+// while(nilaiAwal <=5){
 //     console.log('Hello World!');
-//     NilaiAwal++
+// nilaiAwal++
 // }
 
-// var NilaiAwal = 1
-// while(NilaiAwal <=5){
-//     console.log('Hello World! ' + NilaiAwal + 'x');
-//     NilaiAwal++
+// var nilaiAwal = 1
+// while(nilaiAwal <=5){
+//     console.log('Hello World! ' + nilaiAwal + 'x');
+// nilaiAwal++
 // }
 
-var Angkot = 1
-while (Angkot <=10) {
-    console.log('Angkot No. ' + Angkot + ' beroperasi dengan baik.');
-    Angkot++
+// var angkot = 1
+// while (angkot <=10) {
+//     console.log('Angkot No. ' + angkot + ' beroperasi dengan baik.');
+// angkot++;
+// }
+
+//Latihan Angkot 1
+var jmlAngkot = 20;
+var angkot = 1;
+while (angkot <= jmlAngkot) {
+    console.log('Angkot No. ' + angkot + ' beroperasi dengan baik.');
+angkot++;
 }
